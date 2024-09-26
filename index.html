@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Fields of Physics Survey</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">
+      Fields of Physics Survey
+    </h1>
+    <p id="description">
+      Share your interests in physics with us!
+    </p>
+    <form id="survey-form">
+      <fieldset id="personal-details">
+        <legend>Personal details</legend>
+        <label id="name-label" for="name">
+        Full name: <input id="name" type="text" placeholder="First and Last name" required />
+        </label>
+        <label id="email-label" for="email">
+          Email address: <input id="email" type="email" placeholder="email" required />
+        </label>
+        <label id="number-label" for="number">
+          age(years): <input id="number" type="number" min="7" max="120" placeholder="age" required />
+        </label>
+      </fieldset>
+      <fieldset>
+        <label for="dropdown">What is your education background?
+          <select id="dropdown" name="education" required>
+            <option value="">(Choose one)</option>
+            <option value="self-taught">Self taught</option>
+            <option value="elementary/middle-school">Elementary/Middle school</option>
+            <option value="undergratuate">Undergraduate</option>
+            <option value="graduate">Graduate</option>
+          </select>
+        </label>
+                  <p class="job">Do you have any physics-related internship/job experience?</p>
+        <div class="radio">
+          <label class="inline" for="yes"><input id="yes" type="radio" name="experience" value="yes" checked />Yes</label>
+          <label class="inline" for="no"><input id="no" type="radio" name="experience" value="no" />No</label>
+        </div>
+        <label for="information">If you do, please tell us more: </label>
+          <textarea id="information" placeholder="I was an intern at Fermilab in USA..." rows="4" cols="22"></textarea>
+        </fieldset>
+        <fieldset>
+          <legend>Which type of physics do you prefer?</legend>
+          <div class="check" required>
+            <input id="theoretical" name="type" value="theoretical" type="checkbox" />
+            <label for="theoretical">Theoretical physics</label>
+            <br>
+            <input id="experimental" name="type" value="experimental" type="checkbox" />
+            <label for="experimental">Experimental physics</label>
+          </div>
+        <label for="branch" >Tell us one branch you are most interested in:</label>
+        <input id="branch" type="text" placeholder="ie. Nuclear physics..." />
+        <label for="reason-for-liking">Why that branch in particular?</label>
+        <textarea id="reason-for-liking" placeholder="I love the mystery of how atoms behave..."></textarea>
+      </fieldset>
+      <button id="submit" type="submit" value="submit">SUBMIT</button>
+    </form>
+    <footer>
+      <p>This survey was built by Mihajlo Živković, a student of electronic engineering from Serbia.</p>
+    </footer>
+  </body>
+</html>

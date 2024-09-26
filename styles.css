@@ -1,0 +1,106 @@
+body{
+    width:98%;
+    height:100vh;
+    font-size:20px;
+    font-family:tahoma;
+    background-color: #1b1c31;
+    color:white;
+  }
+  
+  #title, #description {
+    margin:1em auto;
+    text-align:center;
+  }
+  
+  input{
+    display:block;
+    width:100%;
+    height:2.5em;
+    margin:0.5em 0;
+    border-radius:0.5em;
+    border: 1px solid black;
+  }
+  
+  #survey-form {
+    margin: 0 auto;
+    max-width:700px;
+    min-width:300px;
+  }
+  
+  fieldset{
+    padding:1.5em 1em;
+    margin:0.5em auto;
+    border:none;
+    background-color:#1b1c50;
+  }
+  
+  #personal-details{
+   
+    margin-top:4em;
+  }
+  
+  .inline{
+    display:inline;
+  }
+  
+  .job{
+    margin-top:2em;
+  }
+  
+  #yes, #no{
+    height:1em;
+    width:10%;
+    display:inline;
+  }
+  
+  .radio{
+    text-align:center;
+    margin-bottom:1.5em;
+  }
+  
+  #theoretical, #experimental{
+    width:5%;
+    height:1.5em;
+    display:inline;
+  }
+  
+  #experimental{
+    margin-bottom:3em;
+  }
+  
+  #theoretical{
+    margin-top:-3em;
+  }
+  
+  #dropdown{
+    width:40%;
+    font-size:18px;
+  }
+  
+  textarea{
+      width:100%;
+      height:5em;
+      margin: 1em 0 -10px 0;
+      border-radius:0.5em;
+  }
+  
+  input[id="branch"]{
+    margin-bottom:2em;
+  }
+  
+  #submit{
+    width:95%;
+    height:2em;
+    display:block;
+    margin:0 auto;
+    border:none;
+    color:#1b1c50;
+    background-color:white;
+    border-radius:1em;
+  }
+  
+  footer{
+    text-align:center;
+    padding: 1em 0 0.5em 0;
+    font-size:16px;
+  }

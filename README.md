@@ -1,0 +1,2 @@
+26/09/2024
+Hello, the survey you are about to see is the first real project i did on my own. While i don't think it's by any means good, i am proud to have started somewhere where i can look back to at later points in my career. It took me about two days to type out the entire code from the ground up, I also tried to use as little help to better work on my fundamentals.
